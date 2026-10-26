@@ -1,0 +1,97 @@
+{
+  "products": 200,
+  "forecast_dates": [
+    "2011-03-28",
+    "2011-04-25",
+    "2011-05-23",
+    "2011-06-20",
+    "2011-07-18",
+    "2011-08-15",
+    "2011-09-12"
+  ],
+  "horizon_weeks": 8,
+  "product_weeks_tested": 9694,
+  "combined_weight_ml": 0.5,
+  "wape": {
+    "product_week": {
+      "last_week": 0.7452,
+      "avg_8w": 0.5876,
+      "avg_8w_per_day": 0.5892,
+      "same_week_ly": 0.8057,
+      "ly_x_trend": 0.8658,
+      "lightgbm": 0.5544,
+      "lightgbm_mean": 0.5958,
+      "combined": 0.5753
+    },
+    "product_4_weeks": {
+      "last_week": 0.6346,
+      "avg_8w": 0.4196,
+      "avg_8w_per_day": 0.4254,
+      "same_week_ly": 0.5148,
+      "ly_x_trend": 0.5832,
+      "lightgbm": 0.3878,
+      "lightgbm_mean": 0.4054,
+      "combined": 0.3937
+    },
+    "store_week": {
+      "last_week": 0.2716,
+      "avg_8w": 0.1939,
+      "avg_8w_per_day": 0.1814,
+      "same_week_ly": 0.2366,
+      "ly_x_trend": 0.2638,
+      "lightgbm": 0.2369,
+      "lightgbm_mean": 0.2089,
+      "combined": 0.1825
+    },
+    "store_4_weeks": {
+      "last_week": 0.2227,
+      "avg_8w": 0.1418,
+      "avg_8w_per_day": 0.1461,
+      "same_week_ly": 0.145,
+      "ly_x_trend": 0.1872,
+      "lightgbm": 0.1688,
+      "lightgbm_mean": 0.1507,
+      "combined": 0.1204
+    }
+  },
+  "bias": {
+    "last_week": -0.0224,
+    "avg_8w": -0.0775,
+    "avg_8w_per_day": -0.066,
+    "same_week_ly": 0.1119,
+    "ly_x_trend": 0.1566,
+    "lightgbm": -0.1284,
+    "lightgbm_mean": 0.0072,
+    "combined": -0.0294
+  },
+  "best_simple_method": {
+    "product_week": "avg_8w",
+    "product_4_weeks": "avg_8w",
+    "store_week": "avg_8w_per_day",
+    "store_4_weeks": "avg_8w"
+  },
+  "range_check_on_last_3_dates": {
+    "inside_low_high": 0.8382,
+    "below_high": 0.9053
+  },
+  "error_reduction_vs_best_simple": {
+    "product_week": 0.0209,
+    "product_4_weeks": 0.0617,
+    "store_week": -0.0061,
+    "store_4_weeks": 0.1509
+  },
+  "range_factors": {
+    "low": 0.6414,
+    "high": 1.0608
+  },
+  "forecast_weeks": [
+    "2011-12-05",
+    "2011-12-12",
+    "2011-12-19",
+    "2011-12-26",
+    "2012-01-02",
+    "2012-01-09",
+    "2012-01-16",
+    "2012-01-23"
+  ]
+}

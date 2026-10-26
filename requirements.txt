@@ -1,0 +1,14 @@
+duckdb
+pandas
+pyarrow
+numpy
+lightgbm
+scikit-learn
+statsmodels
+matplotlib
+plotly
+streamlit
+openpyxl
+holidays
+pymupdf
+playwright
